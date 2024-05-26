@@ -1,7 +1,14 @@
 a {
   text-decoration: none !important;
 }
-
+header .navbar a {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
 .font-1 {
 font-family: Inter;
 font-size: 40px;
@@ -48,11 +55,36 @@ letter-spacing: -0.03em;
 text-align: center;
 }
 
-header .navbar a {
+.font-6 {
   font-family: Inter;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-  letter-spacing: -0.03em;
-  text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 26.63px;
+text-align: center;
+color: #1C2047;
+
+}
+
+.font-7 {
+  font-family: Inter;
+font-size: 40px;
+font-weight: 500;
+line-height: 48.41px;
+text-align: center;
+
+}
+
+.font-8 {
+  font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+line-height: 26.63px;
+text-align: center;
+}
+.font-span-9 {
+  font-family: Inter;
+font-size: 22px;
+font-weight: 700;
+line-height: 26.63px;
+text-align: center;
 }

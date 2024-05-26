@@ -6,13 +6,15 @@
 }
 
 .contact-main-section {
+  padding: 1.5rem;
   background: linear-gradient(0deg, #11597A, #11597A),
     linear-gradient(196.74deg, rgba(122, 158, 161, 0.41) 9.23%, rgba(129, 138, 157, 0.41) 69.75%);
 }
 
 .main,
-.footer {
-  max-width: 1368px;
+.contact-footer {
+  max-width: 1368px !important;
+  width: 100% !important;
 }
 
 .main {
@@ -130,8 +132,19 @@ form textarea:focus {
   width: 100%;
   background: #1C2047BD;
   border-radius: 1rem;
+  margin-top: 1.5rem;
 }
 
 footer .navbar a {
   color: white;
+}
+
+
+@media (max-width:700px) {
+  .contact-main-section {
+    padding: .5rem !important;
+  }
+  .contact-footer {
+    margin-top: .5rem;
+  }
 }
