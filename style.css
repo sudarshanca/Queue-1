@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.contact-main-section {
+  background: linear-gradient(0deg, #11597A, #11597A),
+    linear-gradient(196.74deg, rgba(122, 158, 161, 0.41) 9.23%, rgba(129, 138, 157, 0.41) 69.75%);
+}
+
+.main,
+.footer {
+  max-width: 1368px;
+}
+
+.main {
+  border-radius: 1rem;
+  background: linear-gradient(86.16deg, rgba(241, 241, 241, 0.99) -12.47%, rgba(255, 255, 255, 0.99) 63.41%);
+}
+
+/* Header starts */
+
+header {
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+  color: #666C85;
+}
+
+
+header .navbar a {
+  color: #666C85;
+}
+
+header .navbar a.active {
+  color: #1C2047;
+}
+
+
+.get-started-button {
+
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  opacity: 0px;
+  background: #1C2047;
+  border: 1px solid #1C2047;
+  color: white;
+}
+
+
+
+/*contact page*/
+
+.heading {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.heading p {
+  z-index: 1 !important;
+  position: relative;
+}
+
+.heading .yellow-line {
+  position: absolute;
+  height: 12px;
+  width: 115%;
+  bottom: 5px;
+  border-radius: 1rem 1rem 0 0;
+  background: #ED77265C;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 560px !important;
+  margin: auto;
+}
+
+.form-container {
+  width: 100%;
+  max-width:  832px !important;
+  margin: auto;
+}
+
+.form-input-div {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.form-input-div input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #71778F5E;
+  background: #FFFFFF;
+}
+
+input:focus {
+  outline: 1px solid #7A89FE !important;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+form textarea {
+  width: 100%;
+  min-height: 253px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #71778F5E;
+  background: #FFFFFF;
+  resize: none;
+}
+
+form textarea:focus {
+  outline: 1px solid #7A89FE !important;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+.contact-footer {
+  padding: 1rem;
+  width: 100%;
+  background: #1C2047BD;
+  border-radius: 1rem;
+}
+
+footer .navbar a {
+  color: white;
+}
