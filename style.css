@@ -143,6 +143,53 @@ footer .navbar a {
   color: white;
 }
 
+/*home page*/
+.section-1 {
+  
+}
+.section-1-1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.section-1 div .left {
+  max-width: 40%;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-1  div .rignt {
+  max-width: 60%;
+  height: 100%;
+  position: relative;
+}
+.rignt img {
+  width: 70%;
+}
+.s1-img-1 {
+  float: right;
+  margin-bottom: -2rem;
+  margin-right: -1rem;
+}
+.s1-img-2 {
+  margin-top: -2rem;
+  margin-left: -1rem;
+  float: left;
+}
+
+.s1-graphic-line-1 {
+  position: absolute;
+  top: -13%;
+  right: -18%;
+  width: 1200px !important;
+}
+
+
 
 @media (max-width:700px) {
   .contact-main-section {

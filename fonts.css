@@ -78,3 +78,45 @@ font-weight: 700;
 line-height: 26.63px;
 text-align: center;
 }
+
+
+
+
+/*home page fonts*/
+
+.font-10 {
+  font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 64.01px;
+text-align: left;
+
+}
+
+.font-11 {
+font-family: Inter;
+font-size: 60px;
+font-weight: 700;
+line-height: 96.01px;
+text-align: left;
+color: #1C2047;
+}
+
+.font-12 {
+  font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 64.01px;
+text-align: left;
+color: #1C2047;
+text-align: center;
+}
+
+.font-13 {
+  font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+line-height: 35.21px;
+text-align: left;
+
+}
