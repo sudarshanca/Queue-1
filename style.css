@@ -313,3 +313,13 @@ footer .navbar a {
     margin-top: .5rem;
   }
 }
+
+
+
+.before::before {
+  content: "";
+  background-image: url(img/BG.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
