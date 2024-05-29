@@ -1,6 +1,7 @@
 a {
   text-decoration: none !important;
 }
+
 header .navbar a {
   font-size: 18px;
   font-weight: 700;
@@ -8,75 +9,77 @@ header .navbar a {
   letter-spacing: -0.03em;
   text-align: center;
 }
+
 .font-1 {
-font-size: 40px;
-font-weight: 500;
-line-height: 48.41px;
-text-align: center;
-color: #1C2047;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48.41px;
+  text-align: center;
+  color: #1C2047;
 }
 
 .font-2 {
-font-size: 22px;
-font-weight: 700;
-line-height: 26.63px;
-text-align: center;
-color: #1C2047;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.63px;
+  text-align: center;
+  color: #1C2047;
 }
 
 .font-3 {
-font-size: 22px;
-font-weight: 400;
-line-height: 26.63px;
-text-align: center;
-color: #1C2047;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.63px;
+  text-align: center;
+  color: #1C2047;
 }
 
 .font-4 {
-font-size: 18px;
-font-weight: 700;
-line-height: 28.8px;
-text-align: left;
-color: #1C2047;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  color: #1C2047;
 }
 
 
 .font-5 {
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-letter-spacing: -0.03em;
-text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  text-align: center;
 }
 
 .font-6 {
-font-size: 22px;
-font-weight: 400;
-line-height: 26.63px;
-text-align: center;
-color: #1C2047;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.63px;
+  text-align: center;
+  color: #1C2047;
 
 }
 
 .font-7 {
-font-size: 40px;
-font-weight: 500;
-line-height: 48.41px;
-text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48.41px;
+  text-align: center;
 
 }
 
 .font-8 {
-font-size: 22px;
-font-weight: 400;
-line-height: 26.63px;
-text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.63px;
+  text-align: center;
 }
+
 .font-span-9 {
-font-size: 22px;
-font-weight: 700;
-line-height: 26.63px;
-text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.63px;
+  text-align: center;
 }
 
 
@@ -86,37 +89,103 @@ text-align: center;
 
 .font-10 {
   font-family: Inter;
-font-size: 40px;
-font-weight: 700;
-line-height: 64.01px;
-text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64.01px;
+  text-align: left;
 
 }
 
 .font-11 {
-font-family: Inter;
-font-size: 60px;
-font-weight: 700;
-line-height: 96.01px;
-text-align: left;
-color: #1C2047;
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 96.01px;
+  text-align: left;
+  color: #1C2047;
 }
 
 .font-12 {
   font-family: Inter;
-font-size: 40px;
-font-weight: 700;
-line-height: 64.01px;
-text-align: left;
-color: #1C2047;
-text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64.01px;
+  text-align: left;
+  color: #1C2047;
+  text-align: center;
 }
 
 .font-13 {
   font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.21px;
+  text-align: left;
+
+}
+
+.font-13 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.21px;
+  text-align: left;
+}
+
+.font-13 span {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64.01px;
+  text-align: left;
+
+}
+
+.font-14 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #494B62;
+}
+
+.font-14 span {
+  color: #1C2047;
+}
+
+.font-15 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: center;
+  color: #232859;
+
+}
+
+.font-16 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: center;
+  color: #666C85;
+}
+
+.font-17 {
+  font-family: Inter;
 font-size: 22px;
 font-weight: 400;
 line-height: 35.21px;
-text-align: left;
+text-align: center;
+}
 
+.font-18 {
+  font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 57.61px;
+text-align: center;
+color: #FFFFFF;
 }
