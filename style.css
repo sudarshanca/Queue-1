@@ -19,17 +19,28 @@
 .contact-footer {
   max-width: 1368px !important;
   width: 100% !important;
+
 }
 
 .main {
-  border-radius: 1rem;
+  border-radius: 30px;
   background: linear-gradient(86.16deg, rgba(241, 241, 241, 0.99) -12.47%, rgba(255, 255, 255, 0.99) 63.41%);
 }
 
 /* Header starts */
 
 header {
-  padding: 1rem;
+  padding: .2rem 1rem 1rem 1rem;
+}
+
+.logo {
+  width: 157px;
+  margin-left: -1rem;
+}
+
+.logo-home {
+  margin-left: -1.5rem;
+  margin-bottom: -1.5rem;
 }
 
 .navbar {
@@ -192,7 +203,8 @@ footer .navbar a {
   position: relative;
 }
 
-.rignt img {
+.rignt .s1-img-1,
+.rignt .s1-img-2 {
   width: 70%;
 }
 
@@ -208,11 +220,25 @@ footer .navbar a {
   float: left;
 }
 
-.s1-graphic-line-1 {
+.rignt {
+  position: relative;
+}
+
+.s1-line-main {
   position: absolute;
-  top: -13%;
-  right: -18%;
-  width: 1200px !important;
+  top: 2%;
+  right: -30%;
+}
+
+.circle-m1 {
+  position: absolute;
+  bottom: 26%;
+  right: 46%;
+}
+.circle-m2 {
+  position: absolute;
+  top: 28%;
+  right:19%;
 }
 
 /* home section 2 */
@@ -246,9 +272,11 @@ footer .navbar a {
 
 .left-s2 .two .circle {
   position: absolute;
-  top: -10px;
-  right: 34%;
+  top: -20px;
+  right: 33%;
   width: 20px;
+  width: 40px;
+  height: 40px;
 }
 .left-s2 .two .decor-line {
   position: absolute;
