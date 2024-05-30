@@ -246,7 +246,7 @@ footer .navbar a {
 .d-s2 {
   display: flex;
   min-height: fit-content;
-  padding: 3rem 0 0 0;
+  padding: 3rem 0 0 1rem;
   background-image: url(img/BG.png);
 }
 
@@ -272,17 +272,16 @@ footer .navbar a {
 
 .left-s2 .two .circle {
   position: absolute;
-  top: -20px;
-  right: 33%;
-  width: 20px;
+  top: -17px;
+  right: 29%;
   width: 40px;
   height: 40px;
 }
 .left-s2 .two .decor-line {
   position: absolute;
-  top: -115%;
-  right: -38.5%;
-  rotate: 10deg;
+  bottom: -290px;
+  left: -81px;
+  rotate: -3deg;
 }
 
 
@@ -290,7 +289,7 @@ footer .navbar a {
   width: 80%;
 }
 
-.left-s2 .two img {
+.left-s2 .two .two-img {
   float: right;
   width: 70%;
   margin-right: -1rem;
