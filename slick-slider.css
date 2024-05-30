@@ -173,12 +173,14 @@
 .slick-arrow.arrow-prev {
   right: 3rem;
   top: -3rem;
+  display: none !important;
 }
 
 .slick-arrow.arrow-next {
-  right: 0;
-  top: -3.5rem;
-  rotate: 180deg;
+  right: 7rem;
+  top: -5rem;
+  border: none;
+  background-color: transparent;
 }
 
 .slick-arrow.arrow-next svg {
