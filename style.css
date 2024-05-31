@@ -96,6 +96,7 @@ header {
   position: relative;
 }
 
+
 .heading .yellow-line {
   position: absolute;
   height: 12px;
@@ -370,6 +371,9 @@ footer .navbar a {
   .left-s2 {
     flex-direction: column !important;
     gap: 2rem;
+  }
+  .heading-1 p {
+    margin-left: -1.5rem;
   }
   
 }
