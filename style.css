@@ -375,6 +375,9 @@ footer .navbar a {
   .heading-1 p {
     margin-left: -1.5rem;
   }
+  .d-s2 {
+    padding: 0;
+  }
   
 }
 @media (max-width:800px) {
