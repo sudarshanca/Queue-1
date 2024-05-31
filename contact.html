@@ -14,25 +14,34 @@
 <body>
   <section class=" contact-main-section">
     <div class="main mx-auto px-0 pb-5 container">
-      <header class="d-flex  justify-content-between align-items-center">
+      <header class="d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center ">
-          <img src="img/Logo.png" class="logo"  alt="">
-
+          <img src="img/Logo.png" class="logo" alt="">
         </div>
-        <div class="navbar">
-          <a href="index.html">Home</a>
+        <div id="background-sidebar" class="background-sidebar"></div>
+        <div id="header-sidebar" class=" header-sidebar ">
+          <div class="close-menu">
+            <img src="img/close_.svg"  onclick="headerSidebar()"  alt="">
+          </div>
+        <div class="navbar m-auto">
+          <a href="index.html" >Home</a>
           <a href="#">Features</a>
           <a href="#">Services</a>
           <a href="AboutUs.html">About us</a>
-          <a href="#" class="active">Contact</a>
+          <a href="contact.html" class="active">Contact</a>
         </div>
         <div>
           <button class="get-started-button">
             Get Started
           </button>
         </div>
+        
+      </div>
+      <div class="open-menu" onclick="headerSidebar()">
+        <img src="img/menu.svg" alt="">
+      </div>
+      
       </header>
-
 
       <div class="contact-main mt-5">
         <div class="heading">
