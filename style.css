@@ -349,6 +349,9 @@ footer .navbar a {
   align-items: center;
   gap: 1.5rem;
 }
+.br-mobile-block {
+  display: none;
+}
 
 @media (max-width:700px) {
   .contact-main-section {
@@ -367,6 +370,7 @@ footer .navbar a {
   }
   .right-s2 .three p  {
     margin-left: -1.5rem !important;
+    padding: .5rem;
   }
   .left-s2 {
     flex-direction: column !important;
@@ -376,7 +380,15 @@ footer .navbar a {
     margin-left: -1.5rem;
   }
   .d-s2 {
-    padding: 0;
+    padding: .5rem 0 0 0 ;
+  }
+
+  .section-1-2 .three {
+    padding: 0 !important;
+  }
+
+  .br-mobile-block {
+    display: block !important;
   }
   
 }
