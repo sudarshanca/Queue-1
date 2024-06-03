@@ -12,7 +12,7 @@
   padding: 1rem;
   background: linear-gradient(0deg, #11597A, #11597A),
     linear-gradient(196.74deg, rgba(122, 158, 161, 0.41) 9.23%, rgba(129, 138, 157, 0.41) 69.75%);
-  gap: 1rem;
+  gap: .5rem;
 }
 
 .main,
