@@ -9,17 +9,15 @@
 }
 
 .contact-main-section {
-  padding: 1.5rem;
+  padding: 1rem;
   background: linear-gradient(0deg, #11597A, #11597A),
     linear-gradient(196.74deg, rgba(122, 158, 161, 0.41) 9.23%, rgba(129, 138, 157, 0.41) 69.75%);
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .main,
 .contact-footer {
-  max-width: 1368px !important;
   width: 100% !important;
-
 }
 
 .main {
