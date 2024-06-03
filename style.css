@@ -168,7 +168,7 @@ form textarea:focus {
   padding: 1rem;
   width: 100%;
   background: #1C2047BD;
-  border-radius: 1rem;
+  border-radius: 30px;
 }
 
 footer .navbar a {
