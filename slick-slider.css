@@ -197,6 +197,8 @@
 .section-2 {
   background-image: url(img/BG1.png);
   padding-left: 1rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .discover-box img {
